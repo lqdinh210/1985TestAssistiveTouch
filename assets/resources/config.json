@@ -1,0 +1,112 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "resources",
+    "deps": [],
+    "uuids": [
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7",
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@0ec0c",
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@0f1c0",
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@69b27",
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@758a8",
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@98193",
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@9be31",
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@b97de",
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@c809a",
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@ca271",
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@e7f74",
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@fe441",
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@ffc4d",
+        "abfa36e3-97d0-4bfa-86bf-e2aebfe61b1f",
+        "ec577a53-abfb-4287-b1c2-2c101d67397b",
+        "ec577a53-abfb-4287-b1c2-2c101d67397b@6c48a"
+    ],
+    "paths": {
+        "abfa36e3-97d0-4bfa-86bf-e2aebfe61b1f": [
+            "jsons/LobbyConfig",
+            "cc.JsonAsset"
+        ],
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7": [
+            "sprites/iconLobby",
+            "cc.SpriteAtlas"
+        ],
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@98193": [
+            "sprites/iconLobby/9949",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@9be31": [
+            "sprites/iconLobby/1988",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@69b27": [
+            "sprites/iconLobby/1996",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@758a8": [
+            "sprites/iconLobby/3977",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@0ec0c": [
+            "sprites/iconLobby/9950",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@0f1c0": [
+            "sprites/iconLobby/9959",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@ffc4d": [
+            "sprites/iconLobby/9961",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@e7f74": [
+            "sprites/iconLobby/9962",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@fe441": [
+            "sprites/iconLobby/9963",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@ca271": [
+            "sprites/iconLobby/9964",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@b97de": [
+            "sprites/iconLobby/9965",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7556a7fb-fb45-49b6-8a31-ade6233294e7@c809a": [
+            "sprites/iconLobby/iconmulti",
+            "cc.SpriteFrame",
+            1
+        ],
+        "ec577a53-abfb-4287-b1c2-2c101d67397b": [
+            "sprites/iconLobby",
+            "cc.ImageAsset"
+        ],
+        "ec577a53-abfb-4287-b1c2-2c101d67397b@6c48a": [
+            "sprites/iconLobby/texture",
+            "cc.Texture2D",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {},
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {}
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Game</title>
+
+  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+  <meta name="viewport"
+  content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1, viewport-fit=cover"/>
+
+  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- force webkit on 360 -->
+  <meta name="renderer" content="webkit"/>
+  <meta name="force-rendering" content="webkit"/>
+  <!-- force edge on IE -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- force full screen on some browser -->
+  <meta name="full-screen" content="yes"/>
+  <meta name="x5-fullscreen" content="true"/>
+  <meta name="360-fullscreen" content="true"/>
+  
+  <!-- force screen orientation on some browser -->
+  <meta name="screen-orientation" content="<%=orientation%>"/>
+  <meta name="x5-orientation" content="<%=orientation%>">
+
+  <!--fix fireball/issues/3568 -->
+  <!--<meta name="browsermode" content="application">-->
+  <meta name="x5-page-mode" content="app">
+
+  <!--<link rel="apple-touch-icon" href=".png" />-->
+  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+
+  <script type="text/javascript" src="https://unpkg.com/swipe-up@1.2.16/dist/swipe-up.js"></script>
+   
+</head>
+<body>
+  <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+  <div id="mask">
+    <!-- <h1 id="tip">Vui lòng vuốt lên để thấy toàn màn hình</h1>-->
+    <div id="image"></div> 
+  </div>
+  <div id="handImage">
+  </div>
+  
+  <div id="div_full_screen" style="width: 100%;height: 100%; visibility:hidden">
+    <div id="enterFullscreen" class="enterFullScreen_Portrait"></div>
+    <div id="exitFullscreen" class="exitFullscreen_Portrait"></div>
+  </div>
+  <div id="splash" style="display: none"></div>
+  <div id="splashGamePortrait" style="display: none"></div>
+<!-- Polyfills bundle. -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-polyfills/0.1.42/polyfill.min.js" charset="utf-8"></script>
+<script src="./lib/common.js" charset="utf-8"></script>
+<!-- SystemJS support. -->
+<script src="src/system.bundle.js" charset="utf-8"> </script>
+
+<!-- Import map -->
+<script src="src/import-map.json" type="systemjs-importmap" charset="utf-8"> </script>
+<script>
+    System.import('./index.js').catch(function(err) { console.error(err); })
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151522596-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-151522596-1');
+</script>
+<script
+  src="https://browser.sentry-cdn.com/6.13.2/bundle.min.js"
+  integrity="sha384-fcgCrdIqrZ6d6fA8EfCAfdjgN9wXDp0EOkueSo3bKyI3WM4tQCE0pOA/kJoqHYoI"
+  crossorigin="anonymous"
+></script>
+
+</body>
+</html>

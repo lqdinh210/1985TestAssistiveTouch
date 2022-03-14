@@ -1,0 +1,45 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "main",
+    "deps": [],
+    "uuids": [
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@6c48a",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "399ccc2a-26f5-4a64-9034-4bbc34184403",
+        "399ccc2a-26f5-4a64-9034-4bbc34184403@6c48a",
+        "399ccc2a-26f5-4a64-9034-4bbc34184403@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@6c48a",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@6c48a",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "ccd10d57-0e37-4863-854e-0b6292dc2dcc",
+        "eb61a957-ed6f-4693-a3ff-99b759b86325",
+        "eb61a957-ed6f-4693-a3ff-99b759b86325@6c48a",
+        "eb61a957-ed6f-4693-a3ff-99b759b86325@f9941",
+        "f6783492-8fa7-49e9-85d9-a23255acef93",
+        "f6783492-8fa7-49e9-85d9-a23255acef93@6c48a",
+        "f6783492-8fa7-49e9-85d9-a23255acef93@f9941",
+        "fd8ec536-a354-4a17-9c74-4f3883c378c8"
+    ],
+    "paths": {
+        "fd8ec536-a354-4a17-9c74-4f3883c378c8": [
+            "db:/internal/default_renderpipeline/builtin-forward",
+            "cc.RenderPipeline"
+        ]
+    },
+    "scenes": {
+        "db://assets/cc-release-fish/cc30-battle-ship-1985/ToolTestAssistiveTouch/SceneTestAssistiveTouch.scene": "ccd10d57-0e37-4863-854e-0b6292dc2dcc"
+    },
+    "packs": {},
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {}
+}
